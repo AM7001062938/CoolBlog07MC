@@ -7,11 +7,11 @@ async function fetchBlogs() {
     cache: "no-store",
   });
 
-if(!res.ok)
-{
-  throw new Error("failed to fetch data")
-}
-return res.json();
+// if(!res.ok)
+// {
+//   throw new Error("failed to fetch data")
+// }
+// return res.json();
 }  //am7:<password>@am7.ko77ctk.mongodb.net/?retryWrites=true&w=majority&appName=am7
 
 
